@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/inkoffTTV/Vicinity/releases/latest"><img alt="Скачать для Windows" src="https://img.shields.io/github/v/release/inkoffTTV/Vicinity?label=%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F%20Windows&style=for-the-badge&color=36ff7a&labelColor=14101c"></a>
   <a href="https://chat.13-143-162-211.sslip.io"><img alt="Открыть в браузере" src="https://img.shields.io/badge/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D0%B2%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5-14101c?style=for-the-badge&labelColor=ff2152"></a>
-  <img src="https://komarev.com/ghpvc/?username=inkoffTTV&color=7b3dff&style=for-the-badge&label=%D0%92%D0%97%D0%93%D0%9B%D0%AF%D0%94%D0%9E%D0%92"/>
+  <img src="https://komarev.com/ghpvc/?username=inkoffTTV&color=7b3dff&style=for-the-badge&label=%D0%92%D0%98%D0%97%D0%98%D0%A2%D0%9E%D0%92"/>
 </p>
 
 <table align="center"><tr>
