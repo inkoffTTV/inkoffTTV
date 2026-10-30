@@ -30,12 +30,6 @@
 <path d="M440.9 164 H499.5 L505.5 170 V186 H446.9 L440.9 180 Z" fill="#160a09" stroke="#c23b22" stroke-width="1"/><text x="473" y="179" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="11" fill="#f0e2cc">STRATZ</text>
 <path d="M513.5 164 H586.3 L592.3 170 V186 H519.5 L513.5 180 Z" fill="#160a09" stroke="#c23b22" stroke-width="1"/><text x="553" y="179" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="11" fill="#f0e2cc">Dotabuff</text>
 <path d="M600.3 164 H658.9 L664.9 170 V186 H606.3 L600.3 180 Z" fill="#160a09" stroke="#c23b22" stroke-width="1"/><text x="633" y="179" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="11" fill="#f0e2cc">pytest</text>
-<g transform="translate(436,192) scale(.56)"><rect x="0" y="0" width="70" height="14" rx="2" fill="#1a0c0a" stroke="#7a2a1e"/>
-<rect x="0" y="26" width="70" height="14" rx="2" fill="#1a0c0a" stroke="#7a2a1e"/>
-<rect x="0" y="62" width="70" height="14" rx="2" fill="#1a0c0a" stroke="#7a2a1e"/>
-<rect x="0" y="88" width="70" height="14" rx="2" fill="#1a0c0a" stroke="#7a2a1e"/>
-<path class="br" d="M70 7 h12 v26 h-12 M82 20 h14 M70 69 h12 v26 h-12 M82 82 h14 M96 20 v62 M96 51 h16" stroke="#d4a53a" stroke-width="1.5" fill="none"/>
-<rect x="112" y="44" width="74" height="14" rx="2" fill="#2a1408" stroke="#d4a53a"/>
-<text x="149" y="55" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="9" fill="#d4a53a">ФИНАЛ</text></g>
+
 <text x="44" y="248" text-anchor="start" font-family="ui-monospace,Consolas,monospace" font-size="10" fill="#8a7a66" letter-spacing="2">PENDING → ручная проверка, если Dotabuff/STRATZ молчат</text>
 </svg>
