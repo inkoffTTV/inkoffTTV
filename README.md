@@ -77,8 +77,12 @@
 <br/>
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=inkoffTTV&show_icons=true&hide_border=true&theme=github_dark&locale=ru"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=inkoffTTV&layout=compact&hide_border=true&theme=github_dark&locale=ru"/>
+  <a href="https://github.com/inkoffTTV?tab=followers"><img alt="Подписчики" src="https://img.shields.io/github/followers/inkoffTTV?style=for-the-badge&labelColor=0b0f14&color=2BC6A4&label=%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8"></a>
+  <a href="https://github.com/inkoffTTV?tab=repositories"><img alt="Звёзды" src="https://img.shields.io/github/stars/inkoffTTV?style=for-the-badge&labelColor=0b0f14&color=d4a53a&label=%D0%B7%D0%B2%D1%91%D0%B7%D0%B4%D1%8B&affiliations=OWNER"></a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=inkoffTTV&hide_border=true&background=0d1117&ring=2BC6A4&fire=d4a53a&currStreakLabel=2BC6A4&sideLabels=c9d1d9&currStreakNum=f0f6fc&sideNums=f0f6fc&dates=8b949e&locale=ru" alt="серия контрибуций"/>
 </p>
 
 <p align="center">
