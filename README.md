@@ -77,8 +77,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/inkoffTTV?tab=followers"><img alt="Подписчики" src="https://img.shields.io/github/followers/inkoffTTV?style=for-the-badge&labelColor=0b0f14&color=2BC6A4&label=%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8"></a>
-  <a href="https://github.com/inkoffTTV?tab=repositories"><img alt="Звёзды" src="https://img.shields.io/github/stars/inkoffTTV?style=for-the-badge&labelColor=0b0f14&color=d4a53a&label=%D0%B7%D0%B2%D1%91%D0%B7%D0%B4%D1%8B&affiliations=OWNER"></a>
+  <img src="https://raw.githubusercontent.com/inkoffTTV/inkoffTTV/metrics/stats.svg" width="100%" alt="статистика: вклады, коммиты, звёзды, языки"/>
 </p>
 
 <p align="center">

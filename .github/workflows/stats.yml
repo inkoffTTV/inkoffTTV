@@ -1,0 +1,31 @@
+name: Stats card
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/scripts/stats_card.py
+      - .github/workflows/stats.yml
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the card
+        run: python3 .github/scripts/stats_card.py --user "${{ github.repository_owner }}" --out dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: metrics
+          build_dir: dist
+          jekyll: false
+          commit_message: Обновить карточку статистики
+          author: inkoffTTV <inkoffTTV@users.noreply.github.com>
+          committer: inkoffTTV <inkoffTTV@users.noreply.github.com>
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
