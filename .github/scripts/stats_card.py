@@ -54,15 +54,26 @@ def collect(user, token):
     return data
 
 
+def plural(n, one, few, many):
+    n = abs(n) % 100
+    if 11 <= n <= 14:
+        return many
+    return one if n % 10 == 1 else few if 2 <= n % 10 <= 4 else many
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
 
 def card(d, updated):
-    metrics = [(label, d[key]) for key, label in [
-        ("contributions", "вкладов за год"), ("commits", "коммитов за год"), ("stars", "звёзд"),
-        ("repos", "репозиториев"), ("prs", "pull request"), ("followers", "подписчиков"), ("forks", "форков"),
-    ] if key in d][:4]
+    words = {  # one, few, many: 1 вклад, 2 вклада, 5 вкладов
+        "contributions": (("вклад", "вклада", "вкладов"), " за год"), "commits": (("коммит", "коммита", "коммитов"), " за год"),
+        "stars": (("звезда", "звезды", "звёзд"), ""), "repos": (("репозиторий", "репозитория", "репозиториев"), ""),
+        "prs": (("pull request", "pull request", "pull request"), ""), "followers": (("подписчик", "подписчика", "подписчиков"), ""),
+        "forks": (("форк", "форка", "форков"), ""),
+    }
+    order = ["contributions", "commits", "stars", "repos", "prs", "followers", "forks"]
+    metrics = [(plural(d[k], *words[k][0]) + words[k][1], d[k]) for k in order if k in d][:4]
     total = sum(d["languages"].values()) or 1
     top = sorted(d["languages"].items(), key=lambda kv: -kv[1])
     shown = top[:6]
